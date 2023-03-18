@@ -221,3 +221,124 @@
     line-height: 15.6px;
 }
 
+/* GALLERY */
+
+.gallery {
+    background-color: #141F35;
+    padding: 70px 0 80px;
+}
+
+.gallery__container {
+    width: 944px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    margin: 48px auto 0;
+}
+
+.card-image {
+    width: 224px;
+    height: 225px;
+    margin: 0 0 16px 0;
+}
+
+/* CONTACTS */
+
+.contacts {
+    background-color: #1B2944;
+    padding: 88px 0 88px;
+}
+
+/* FORM */
+
+.contacts__container {
+    width: 944px;
+    margin: 48px auto 0;
+    display: flex;
+    column-gap: 96px;
+}
+
+.form__input_container {
+    width: 464px;
+    height: 422px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 0 auto;
+    box-shadow: -5px 5px 0 #FFC41D;
+    border-radius: 6px;
+}
+
+.input_item {
+    width: 400px;
+    height: 70px;
+    margin: 0 auto 24px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+    border: none;
+}
+
+.form-link {
+    width: 375px;
+    padding: 16px;
+    background-color: #FFBB01;
+    color: #1B2944;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 auto;
+    border-radius: 6px;
+    box-shadow: 0px 4px 0 #B68500;
+    font-size: 12px;
+    line-height: 15.6px;
+    font-weight: 700;
+}
+
+.form-title {
+    color: #000;
+    width: 400px;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    /* text-align: center; */
+    /* margin: 40px 0 0 0; */
+    /* box-sizing: border-box; */
+    margin: 40px auto 32px;
+    text-align: center;
+}
+
+.contacts__links {
+    width: 384px;
+}
+
+.contacts__colum {
+
+}
+
+.column-title {
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.column-subtitle {
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.column-author {
+    width: 210px;
+    margin: 230px 0 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.header__column_links {
+    padding: 0;
+}
