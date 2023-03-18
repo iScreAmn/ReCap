@@ -1,6 +1,6 @@
 ## Spring Camp "reCap"
 
-<img src="./images/readme.gif">
+<img src="./readme.gif">
 
 Vacation Spring Camp from [Yandex Practicum](https://practicum.yandex.ru/ "Yandex Practicum").
  
