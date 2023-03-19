@@ -1,0 +1,133 @@
+.page {
+    min-width: 1280px;
+    /* max-width: 1400px; */
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #141F35;
+    padding: 40px 0 0;
+    
+}
+
+.header__container {
+    width: 944px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo_place_header {
+    background-image: url(../images/logo.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 28px;
+}
+
+.header__column_links {
+    list-style: none;
+    display: flex;
+    column-gap: 16px;
+    margin: 0;
+}
+
+.header__column_link:hover {
+    opacity: 70%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* HERO */
+
+.hero {
+    background-color: #141F35;
+    padding: 114px 0 188px 0;
+    height: 50vh;
+    
+}
+
+.hero__container {
+    width: 944px;
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto 0;
+}
+
+.hero__error {
+    background-image: url(../images/error.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 298px;
+    margin-right: 20px;
+}
+
+.hero__info {
+    width: 464px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+}
+
+.hero__position {
+    color: #ff1a19;
+    margin: 0 0 16px;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hero__title {
+    color: #fff;
+    margin: 0 0 24px;
+    line-height: 59px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.hero__subtitle {
+    color: #fff;
+    margin: 0 0 40px;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hero__link {
+    text-decoration: none;
+    background-color: #ff1a19;
+    border-radius: 6px;
+    padding: 16px 32px;
+    color: #1B2944;
+    text-transform: uppercase;
+    line-height: 15.6px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.hero__link:hover {
+    background-color: #FFBB01;
+    transition: background-color 0.5s ease-in-out;
+
+}
+
+.hero__image {
+    background-image: url(../images/avatar.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 384px;
+    height: 384px;
+}
+
+
+
+.error_theme {
+    /* background-color: #141F35; */
+}
