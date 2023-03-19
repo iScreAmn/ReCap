@@ -36,6 +36,11 @@
     margin: 0;
 }
 
+.header__column_link:hover {
+    opacity: 70%;
+    transition: opacity 0.5s ease-in-out;
+}
+
 /* HERO */
 
 .hero {
@@ -83,7 +88,7 @@
 
 .hero__link {
     text-decoration: none;
-    background-color: #FFBB01;
+    background-color: #987002;
     border-radius: 6px;
     padding: 16px 32px;
     color: #1B2944;
@@ -91,6 +96,11 @@
     line-height: 15.6px;
     font-size: 12px;
     font-weight: 700;
+}
+
+.hero__link:hover {
+    background-color: #FFBB01;
+    transition: ease-in-out;
 }
 
 .hero__image {
@@ -148,6 +158,11 @@
     line-height: 28px;
 }
 
+.table__items:hover .items-img {
+    opacity: 70%;
+    transition: opacity 0.5s ease-in-out;
+}
+
 /* PORTFOLIO */
 
 .portfolio {
@@ -161,6 +176,14 @@
     display: flex;
     margin: 48px auto 0;
     column-gap: 16px;
+    overflow: hidden;
+    border-radius: 6px;
+    /* box-shadow: -5px 5px 0 #FFC41D; */
+}
+
+.item_hover:hover .project__link {
+    background-color: #b70626;
+    transition: background-color 0.5s ease-in-out;
 }
 
 .project__item_1 {
@@ -173,6 +196,13 @@
     border-radius: 6px;
     margin-top: 0px;
     opacity: 70%;
+    transition: transform 0.9s ease-in-out;
+    
+}
+
+.portfolio__container:hover .project__item_1:hover {
+    transform: scale(1.05);
+    
 }
 
 .project__item_2 {
@@ -185,6 +215,11 @@
     border-radius: 6px;
     margin-top: 0px;
     opacity: 70%;
+    transition: transform 0.9s ease-in-out;
+}
+
+.portfolio__container:hover .project__item_2:hover {
+    transform: scale(1.05);
 }
 
 .project__item_3 {
@@ -197,6 +232,11 @@
     border-radius: 6px;
     margin-top: 0px;
     opacity: 70%;
+    transition: transform 0.9s ease-in-out;
+}
+
+.portfolio__container:hover .project__item_3:hover {
+    transform: scale(1.05);
 }
 
 .project__title {
