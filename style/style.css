@@ -100,7 +100,8 @@
 
 .hero__link:hover {
     background-color: #FFBB01;
-    transition: ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+
 }
 
 .hero__image {
