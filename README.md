@@ -18,8 +18,7 @@ HTML / CSS
 ## Refactoring For The Future
 * BEM Nested file structure
 * Adaptability for various devices
-* Portfolio & Gallery hover updates
-* Links hover
+* Gallery hover updates
 * logo_place_header - overflow: hidden - update
 * Append all vendor prefixes
 
