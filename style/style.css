@@ -113,18 +113,6 @@
     height: 384px;
 }
 
-.hero__error {
-    background-image: url(../images/error.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 600px;
-    height: 298px;
-}
-
-.error_theme {
-    background-color: #141F35;
-}
 
 /* SECTION-TITLE */
 
@@ -348,6 +336,11 @@
     font-weight: 700;
 }
 
+.form-link:hover {
+    background-color: #b28917;
+    transition: background-color 0.5s ease-in-out;
+}
+
 .form-title {
     color: #000;
     width: 400px;
@@ -366,8 +359,8 @@
     width: 384px;
 }
 
-.contacts__colum {
-
+.contacts__social {
+    width: 384px;
 }
 
 .column-title {
