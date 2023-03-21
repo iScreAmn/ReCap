@@ -125,3 +125,8 @@
     width: 384px;
     height: 384px;
 }
+
+.error__back-link {
+    color: #ff1a19;
+    text-decoration: none;
+}
