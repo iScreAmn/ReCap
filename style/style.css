@@ -458,6 +458,10 @@
         width: 272px;
     }
 
+    .section-title__editor {
+        text-align: center;
+    }
+
     .header__container {
         max-width: 320px;
         display: flex;
@@ -488,49 +492,85 @@
         max-width: 320px;
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 
     .portfolio__container {
+        max-width: 320px;
         display: flex;
         flex-direction: column;
+    }
+
+    .item_hover {
+        margin-top: 20px;
     }
 
     .gallery__container {
         max-width: 320px;
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+        /* display: grid; */
+        /* display: flex;
+        flex-direction: column; */
+    }
+
+    .card-image:nth-child(1) {
+        grid-column: 1/3;
+        grid-row: 1/3;
+    }
+    
+    /* .card-image:nth-child(13) {
+        grid-column: -1/3;
+        grid-row: -1/3;
+    } */
+
+    .card__selector {
+        display: none;
     }
 
     .card-image {
-        width: 129px;
-        height: 129px;
-    }
-
-    .contacts {
-        max-width: 320px;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
     }
 
     .contacts__container {
         max-width: 320px;
         display: flex;
         flex-direction: column;
+        margin: 0;
     }
 
     .form__input_container {
         max-width: 320px;
-        display: none;
+        /* display: none; */
+        margin: 30px 30px;
     }
 
     .input_item {
-        max-width: 320px;
+        /* max-width: 320px; */
     }
 
     .contacts__links {
         max-width: 320px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 100px;
     }
 
     .contacts__social {
         max-width: 320px;
+        margin: 0 100px;
+    }
+
+    .contacts__column {
+       
+    }
+
+    .column-author {
+        display: none;
     }
 }
 
