@@ -557,12 +557,12 @@
         max-width: 320px;
         display: flex;
         justify-content: space-between;
-        margin: 40px 0;
+        margin: 40px 40px;
     }
 
     .contacts__social {
         max-width: 320px;
-        /* margin: 0 100px; */
+        margin: 0 40px;
     }
 
     .contacts__column {
