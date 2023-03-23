@@ -447,24 +447,30 @@
 }
 
 
-/* Extra small: 0px (320px) - 575px */
-@media (max-width: 575px) {
+/* Extra small: 0px (320px) - 540px */
+@media (max-width: 540px) {
     
+    .page {
+        min-width: 320px;
+    }    
+
+    .section-title {
+        width: 272px;
+    }
+
     .header__container {
         max-width: 320px;
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         align-items: center;
-    }
-
-    .logo_place_header {
-        /* margin-bottom: 20px; */
+        box-sizing: border-box;
     }
 
     .hero__container {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        max-width: 320px;
     }
 
     .hero__image {
@@ -475,7 +481,56 @@
 
     .hero__info {
         text-align: center;
-        max-width: 272px;
+        width: 272px;
+    }
+
+    .features__container {
+        max-width: 320px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery__container {
+        max-width: 320px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-image {
+        width: 129px;
+        height: 129px;
+    }
+
+    .contacts {
+        max-width: 320px;
+    }
+
+    .contacts__container {
+        max-width: 320px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form__input_container {
+        max-width: 320px;
+        display: none;
+    }
+
+    .input_item {
+        max-width: 320px;
+    }
+
+    .contacts__links {
+        max-width: 320px;
+    }
+
+    .contacts__social {
+        max-width: 320px;
     }
 }
 
